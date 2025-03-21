@@ -7,7 +7,7 @@ const path = require("path");
 const methodOverride = require("method-override");
 const ejsMate=require("ejs-mate");//helps in creating various templets.
 
-const MONGO_URL = "mongodb://127.0.0.1:27017/travellers_hault";
+const MONGO_URL = "mongodb://127.0.0.1:27017/travellers_halt";
 
 main()
   .then(() => {
